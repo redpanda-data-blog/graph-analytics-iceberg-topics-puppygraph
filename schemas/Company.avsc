@@ -1,0 +1,46 @@
+{
+    "name": "Company",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "companyId",
+            "type": "long"
+        },
+        {
+            "name": "companyName",
+            "type": "string"
+        },
+        {
+            "name": "isBlocked",
+            "type": "boolean"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "country",
+            "type": "string"
+        },
+        {
+            "name": "city",
+            "type": "string"
+        },
+        {
+            "name": "business",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "string"
+        },
+        {
+            "name": "url",
+            "type": "string"
+        }
+    ]
+}

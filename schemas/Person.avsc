@@ -1,0 +1,42 @@
+{
+    "name": "Person",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "personId",
+            "type": "long"
+        },
+        {
+            "name": "personName",
+            "type": "string"
+        },
+        {
+            "name": "isBlocked",
+            "type": "boolean"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "gender",
+            "type": "string"
+        },
+        {
+            "name": "birthday",
+            "type": "string"
+        },
+        {
+            "name": "country",
+            "type": "string"
+        },
+        {
+            "name": "city",
+            "type": "string"
+        }
+    ]
+}

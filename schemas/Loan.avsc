@@ -1,0 +1,34 @@
+{
+    "name": "Loan",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "loanId",
+            "type": "long"
+        },
+        {
+            "name": "loanAmount",
+            "type": "double"
+        },
+        {
+            "name": "balance",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "loanUsage",
+            "type": "string"
+        },
+        {
+            "name": "interestRate",
+            "type": "double"
+        }
+    ]
+}

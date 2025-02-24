@@ -1,0 +1,26 @@
+{
+    "name": "PersonOwnAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "personownaccountId",
+            "type": "long"
+        },
+        {
+            "name": "personId",
+            "type": "long"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}

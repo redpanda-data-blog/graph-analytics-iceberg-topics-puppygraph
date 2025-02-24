@@ -1,0 +1,46 @@
+{
+    "name": "AccountTransferAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "accounttransferaccountId",
+            "type": "long"
+        },
+        {
+            "name": "fromId",
+            "type": "long"
+        },
+        {
+            "name": "toId",
+            "type": "long"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "orderNum",
+            "type": "string"
+        },
+        {
+            "name": "comment",
+            "type": "string"
+        },
+        {
+            "name": "payType",
+            "type": "string"
+        },
+        {
+            "name": "goodsType",
+            "type": "string"
+        }
+    ]
+}

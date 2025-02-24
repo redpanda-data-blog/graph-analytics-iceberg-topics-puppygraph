@@ -1,0 +1,30 @@
+{
+    "name": "PersonInvestCompany",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "personinvestcompanyId",
+            "type": "long"
+        },
+        {
+            "name": "investorId",
+            "type": "long"
+        },
+        {
+            "name": "companyId",
+            "type": "long"
+        },
+        {
+            "name": "ratio",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}

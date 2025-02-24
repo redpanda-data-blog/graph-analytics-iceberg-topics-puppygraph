@@ -1,0 +1,26 @@
+{
+    "name": "CompanyOwnAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "companyownaccountId",
+            "type": "long"
+        },
+        {
+            "name": "companyId",
+            "type": "long"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}

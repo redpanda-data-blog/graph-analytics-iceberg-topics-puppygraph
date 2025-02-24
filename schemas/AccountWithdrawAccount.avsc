@@ -1,0 +1,30 @@
+{
+    "name": "AccountWithdrawAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "accountwithdrawaccountId",
+            "type": "long"
+        },
+        {
+            "name": "fromId",
+            "type": "long"
+        },
+        {
+            "name": "toId",
+            "type": "long"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}

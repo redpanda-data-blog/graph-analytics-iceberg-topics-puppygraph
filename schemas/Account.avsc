@@ -1,0 +1,50 @@
+{
+    "name": "Account",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "isBlocked",
+            "type": "boolean"
+        },
+        {
+            "name": "accountType",
+            "type": "string"
+        },
+        {
+            "name": "nickname",
+            "type": "string"
+        },
+        {
+            "name": "phonenum",
+            "type": "string"
+        },
+        {
+            "name": "email",
+            "type": "string"
+        },
+        {
+            "name": "freqLoginType",
+            "type": "string"
+        },
+        {
+            "name": "lastLoginTime",
+            "type": "string"
+        },
+        {
+            "name": "accountLevel",
+            "type": "string"
+        }
+    ]
+}

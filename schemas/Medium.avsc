@@ -1,0 +1,34 @@
+{
+    "name": "Medium",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "mediumId",
+            "type": "long"
+        },
+        {
+            "name": "mediumType",
+            "type": "string"
+        },
+        {
+            "name": "isBlocked",
+            "type": "boolean"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "lastLoginTime",
+            "type": "string"
+        },
+        {
+            "name": "riskLevel",
+            "type": "string"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "AccountRepayLoan",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "accountrepayloanId",
+            "type": "long"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "loanId",
+            "type": "long"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}

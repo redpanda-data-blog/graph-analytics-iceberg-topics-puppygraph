@@ -1,0 +1,30 @@
+{
+    "name": "MediumSignInAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "mediumsigninaccountId",
+            "type": "long"
+        },
+        {
+            "name": "mediumId",
+            "type": "long"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        },
+        {
+            "name": "location",
+            "type": "string"
+        }
+    ]
+}

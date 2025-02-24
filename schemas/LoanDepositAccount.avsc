@@ -1,0 +1,30 @@
+{
+    "name": "LoanDepositAccount",
+    "type": "record",
+    "fields": [
+        {
+            "name": "label",
+            "type": "string"
+        },
+        {
+            "name": "loandepositaccountId",
+            "type": "long"
+        },
+        {
+            "name": "loanId",
+            "type": "long"
+        },
+        {
+            "name": "accountId",
+            "type": "long"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "createTime",
+            "type": "string"
+        }
+    ]
+}
