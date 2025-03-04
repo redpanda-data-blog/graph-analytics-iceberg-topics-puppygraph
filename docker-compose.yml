@@ -8,7 +8,7 @@ volumes:
 services:
   redpanda-0:
     container_name: redpanda-0
-    image: docker.redpanda.com/redpandadata/redpanda:v${REDPANDA_VERSION:-24.3.1}
+    image: docker.redpanda.com/redpandadata/redpanda:v${REDPANDA_VERSION:-24.3.6}
     command:
       - redpanda
       - start
